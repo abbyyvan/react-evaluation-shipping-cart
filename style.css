@@ -24,6 +24,7 @@ body {
     background-color: var(--primary-bg);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     height: 400px;
+    width: 836px;
     
     
   }
@@ -33,12 +34,14 @@ body {
     padding: 20px;
     flex: 1;
   }
+ 
   
   .inventory-container h1,
   .cart-container h1 {
     font-size: 24px;
     margin-bottom: 20px;
     text-align: center;
+
   }
   
   .inventory-container ul,
@@ -102,7 +105,10 @@ body {
     width: 100%;
     padding: 10px 0;
     font-size: 16px;
-
+    width: 375px;
+    position:absolute;
+    bottom: 20px;
+    right: 20px;
     
   }
   
@@ -113,3 +119,8 @@ body {
     text-align: center;
   }
   
+  .cart-container {
+    position: relative;
+    flex-direction: column;
+   
+  }
